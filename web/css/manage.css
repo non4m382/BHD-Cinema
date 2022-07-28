@@ -1,0 +1,95 @@
+.manager .admin {
+    background: #bbbbbb;
+    position: sticky;
+    top: 75px;
+    height: 90vh;
+}
+
+.manager .admin span {
+    font-style: italic; 
+}
+
+.manager .summary {
+    height: 200px;
+    background: #ffcd56;
+    width: 30%;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.manager .summary h2 {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 300%;
+}
+
+.manager .summary span {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav {
+    position: relative;
+    margin: 0 10px;
+    width: 100%;
+    /*background:*/ 
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    /* Sub Menu */
+}
+nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+nav ul li a:hover {
+    background: #1d4f71;
+    color: #fff;
+}
+nav ul li a .fa {
+    width: 16px;
+    text-align: center;
+    margin-right: 5px;
+    float:right;
+}
+nav ul ul {
+    background: rgba(0, 0, 0, 0.2);
+}
+nav ul li ul li a {
+
+    border-left: 4px solid transparent;
+    padding: 10px 20px;
+}
+nav ul li ul li a:hover {
+
+    border-left: 4px solid #3498db;
+}
+
+.doughnut {
+    background: aliceblue;
+    border-radius: 10px;
+}
+
+.bar {
+    background: #cfb3ee38;
+    border-radius: 10px;
+}

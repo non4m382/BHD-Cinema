@@ -1,0 +1,92 @@
+body {
+    background-image: url(../img/background/bg-cinema-10.png);
+
+}
+
+.user-title {
+    margin: 20px 0;
+}
+
+.user-title span {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.user-title .title {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.user-title .title:hover{
+    color: #a2da72;
+    cursor: pointer;
+}
+
+.container .row {
+    margin: 50px 0;
+}
+
+.container .user {
+    background: #1c262f;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.container .user .user_general {
+    color: white;
+    border-bottom: 1px solid #ffffff61;
+    padding-bottom: 10px;
+}
+
+.container .user .user_general span{
+    color: #89c441;
+}
+
+.container .user_info table tr {
+    height: 59px;
+}
+
+.container .user_info .user_property {
+    width: 40%; 
+    color: #bfc9d2;
+}
+
+.container .user_info .info {
+    line-height: 35px;
+    width: 150%;
+    padding: 0 10px;
+    background: #37424b;
+    color: #70808e;
+    border-radius: 4px;
+}
+
+.transaction {
+    padding: 20px;
+    background: #39454f;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.transaction h2 {
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.transaction > table {
+    color: white;
+    width: 100%;
+
+}
+
+.transaction table td, 
+.transaction table tr, 
+.transaction table th{
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.transaction table th {
+    text-align: center;
+}
